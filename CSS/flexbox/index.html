@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Postion</title>
+
+    <style>
+      .container {
+        /* write code here */
+
+        width: 800px;
+        height: 600px;
+        border: 1px solid black;
+        display: flex;
+        gap: 10px;
+        /* start, end, space-beatwen, space evenl, space around */
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+      .item {
+        width: 80px;
+        height: 80px;
+      }
+
+      .item1 {
+        background-color: red;
+      }
+      .item2 {
+        background-color: green;
+      }
+      .item3 {
+        background-color: blue;
+      }
+      .item4 {
+        background-color: yellow;
+      }
+      .item5 {
+        background-color: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- belajar flexbox -->
+    <div class="container">
+      <div class="item item1">1</div>
+      <div class="item item2">2</div>
+      <div class="item item3">3</div>
+      <div class="item item4">4</div>
+      <div class="item item5">5</div>
+    </div>
+  </body>
+</html>

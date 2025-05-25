@@ -1,0 +1,54 @@
+.navbar {
+  width: 900px;
+  height: 91px;
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  /* color: #9f1010;
+  font-family: "Ancizar Sans", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal; */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.navbar-collaps {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.navbar-collaps .navbar-list {
+  display: flex;
+  gap: 21px;
+  list-style: none;
+  font-family: 14px;
+  color: #737373;
+  font-weight: bold;
+}
+
+.login {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.login h3 {
+  color: #57c192;
+  font-family: 14px;
+}
+
+.login .join {
+  padding: 15px 25px;
+  color: white;
+  font-weight: bold;
+  /* margin-left: 20px; */
+  background-color: #57c192;
+  border-radius: 8px;
+}
