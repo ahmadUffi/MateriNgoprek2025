@@ -1,9 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --green: #57c192;
+  --balck: #252b42;
+}
+.header {
+  background-color: #e9ebff;
+}
+
 .navbar {
   width: 900px;
   height: 91px;
   /* background-color: aquamarine; */
   display: flex;
+  gap: 40px;
   align-items: center;
+  /* margin: 0 auto 0 auto; */
+  margin: 0 auto;
 }
 
 .logo {
@@ -40,7 +54,7 @@
 }
 
 .login h3 {
-  color: #57c192;
+  color: var(--green);
   font-family: 14px;
 }
 
@@ -49,6 +63,90 @@
   color: white;
   font-weight: bold;
   /* margin-left: 20px; */
-  background-color: #57c192;
+  background-color: var(--green);
   border-radius: 8px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: black; */
+}
+
+.hero .informasi {
+  width: 571px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero .informasi h5 {
+  color: var(--green);
+  font-size: 16px;
+}
+
+.hero .informasi h1 {
+  color: var(--balck);
+  font-size: 58px;
+}
+
+.hero .informasi h4 {
+  color: #737373;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+}
+
+.hero .informasi .btn button.get {
+  background-color: var(--green);
+  padding: 15px 40px;
+  border: none;
+  color: White;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.hero .informasi .btn button.learn {
+  background-color: white;
+  border: 1px solid var(--green);
+  padding: 15px 40px;
+  border-radius: 5px;
+  color: var(--green);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.hero .gambar img {
+  width: 532px;
+}
+
+.rangking {
+  padding: 0 207px;
+}
+
+.rangking .container {
+  justify-content: center;
+  display: flex;
+  padding: 80px 0;
+  gap: 80px;
+}
+
+.rangking .container .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rangking .container .box h1 {
+  font-size: 58px;
+  font-weight: bold;
+  color: var(--green);
+  text-transform: uppercase;
+}
+
+.rangking .container .box h5 {
+  font-size: 14px;
+  color: var(--balck);
 }
